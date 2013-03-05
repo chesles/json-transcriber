@@ -30,7 +30,7 @@ your NoSQL database.
 Want to extract a set of keys into an array or a nested object? Fine, just tell
 `transcribe` what values you want:
 
-    var src = {value1: 1, value2: 2, value3: 3})
+    var src = {value1: 1, value2: 2, value3: 3}
 
     # final value will be an array
     var arrayMapping = {
@@ -56,5 +56,5 @@ use simple dot-notation:
     var v = transcribe.extract("top_level.nested", thing);
     //=> true
 
-    var a = transcribe.extract(['toplevel.nested', 'value'], thing);
+    var a = transcribe.extract(['top_level.nested', 'value'], thing);
     //=> [true, 23]
