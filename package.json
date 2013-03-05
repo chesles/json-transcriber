@@ -1,0 +1,23 @@
+{
+  "name": "json-transcriber",
+  "version": "0.0.1",
+  "description": "",
+  "main": "transcriber.js",
+  "devDependencies": {
+    "specify": "~1.1.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "https://github.com/chesles/json-transciber",
+  "keywords": [
+    "JSON",
+    "object",
+    "copy",
+    "extend",
+    "transcribe"
+  ],
+  "author": "John Chesley <john@chesl.es>",
+  "license": "MIT"
+}
